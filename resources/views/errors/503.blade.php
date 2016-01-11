@@ -16,7 +16,7 @@
             @include("partials.menu")
         </div>
     </div>
-    <div class="row"> test
+    <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-8">
             <h1>503 - Service unavailable</h1>
