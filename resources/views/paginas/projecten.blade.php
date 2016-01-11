@@ -13,7 +13,7 @@
     <div id="pagina1">
         <div class="row header">
             <div class="col-sm-7">
-                <a href="{{ url("/") }}"><img src="{{ asset("images/logo_hoek.png") }}" alt="logo" /></a>
+                <a href="{{ url("/") }}"><img class="img-responsive" src="{{ asset("images/logo_hoek.png") }}" alt="logo" /></a>
             </div>
             <div class="col-sm-5">
                 @include("partials.menu")
