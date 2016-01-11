@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aa5797c2-aeb7-43b6-b421-85e1a5b8224a" name="raspberry" url="http://192.168.0.136">
+        <fileTransfer host="192.168.0.136" port="22" rootFolder="/var/repo/ovde.be" accessType="SFTP" username="pi">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
