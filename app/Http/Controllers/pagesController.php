@@ -22,6 +22,7 @@
          */
         public function over()
         {
+            $ate = 0;
             return view("paginas.over");
         }
 
