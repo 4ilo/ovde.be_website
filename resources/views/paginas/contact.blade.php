@@ -1,6 +1,8 @@
 
 @extends("app")
 
+@section("titel","Ovde - Contact")
+
 @section("header")
     <link rel="stylesheet" href="css/contact.css">
     <script type="text/javascript" src="js/contact.js"></script>

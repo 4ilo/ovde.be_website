@@ -1,6 +1,8 @@
 
 @extends("app")
 
+@section("titel","Ovde - Over")
+
 @section("header")
     <link rel="stylesheet" href="css/over.css">
 @stop

@@ -1,6 +1,8 @@
 
 @extends("app")
 
+@section("titel","Ovde - Home")
+
 @section("content")
     <div class="row">
         <div class="col-sm-7"></div>
