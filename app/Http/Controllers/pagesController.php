@@ -2,8 +2,9 @@
     
     namespace App\Http\Controllers;
 
-    use App\Http\Requests\contactRequest;
+    use App\CloudAtCost;
     use Illuminate\Support\Facades\Mail;
+    use App\Http\Requests\contactRequest;
 
     class pagesController extends Controller
     {
@@ -57,5 +58,18 @@
 
             session()->flash("flash_message","Email is verzonden.");
             return redirect("contact");
+        }
+
+        /**
+         * Een statuspagina met ram,cpu en hdd usage
+         * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+         * @throws \App\Exceptions\CloudAtCostLoginFailException
+         */
+        public function status()
+        {
+            $vps = new CloudAtCost();
+            $vps->server(0);
+
+            return view("paginas.status",compact("vps"));
         }
     }

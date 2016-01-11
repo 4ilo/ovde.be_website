@@ -19,9 +19,9 @@
     <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-8">
-            <h1>503 - Service unavailable</h1>
+            <h1>403 - Toegang niet toegestaan</h1>
             <p>
-                De pagina die u heeft opgevraagd is niet beschikbaar.<br/>
+                De pagina die u heeft opgevraagd verboden.<br/>
                 Indien deze melding na een link komt contacteer dan de beheerder.
             </p>
         </div>

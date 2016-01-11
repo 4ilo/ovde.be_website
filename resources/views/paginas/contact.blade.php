@@ -4,14 +4,14 @@
 @section("titel","Ovde - Contact")
 
 @section("header")
-    <link rel="stylesheet" href="css/contact.css">
-    <script type="text/javascript" src="js/contact.js"></script>
+    <link rel="stylesheet" href="{{ asset("css/contact.css") }}">
+    <script type="text/javascript" src="{{ asset("js/contact.js") }}"></script>
 @stop
 
 @section("content")
     <div class="row header">
         <div class="col-sm-7">
-            <a href="{{ url("/") }}"><img class="img-responsive" src="images/logo_hoek.png" alt="logo" /></a>
+            <a href="{{ url("/") }}"><img class="img-responsive" src="{{ asset("images/logo_hoek.png") }}" alt="logo" /></a>
         </div>
         <div class="col-sm-5">
             @include("partials.menu")
@@ -20,7 +20,7 @@
     <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-4 contact">
-            <img alt="contact" src="images/contact.png">
+            <img alt="contact" src="{{ asset("images/contact.png") }}">
         </div>
 
         <div class="col-sm-4">

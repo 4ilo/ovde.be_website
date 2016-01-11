@@ -10,5 +10,5 @@
             @include("partials.menu")
         </div>
     </div>
-    <img class="img-responsive" id="logo_home" src="images/logo_home.png" alt="logo"/>
+    <img class="img-responsive" id="logo_home" src="{{ asset("images/logo_home.png") }}" alt="logo"/>
 @stop

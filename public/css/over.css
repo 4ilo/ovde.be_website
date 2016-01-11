@@ -2,8 +2,19 @@ h1 {
     color:#007eff;
     font-family: 'Quicksand', sans-serif ;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 20px;
+}
+h2 {
+    color:#007eff;
+    font-family: 'Quicksand', sans-serif ;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+h4 {
+    color: white;
 }
 
 p {
@@ -30,4 +41,23 @@ h3 {
 .home {
     background-color: #232323;
     background-image: none;
+}
+
+.logo-small {
+    color: #007eff;
+    font-size: 50px;
+}
+
+.onder {
+    margin-bottom: 40px;
+}
+
+
+/* Style voor status pagina */
+.deel {
+   color: white;
+}
+
+.deel .progress {
+    background-color: #9d9d9d;
 }

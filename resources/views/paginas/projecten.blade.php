@@ -4,8 +4,8 @@
 @section("titel","Ovde - Projecten")
 
 @section("header")
-    <link rel="stylesheet" href="css/projecten.css">
-    <script type="text/javascript" src="js/projecten.js"></script>
+    <link rel="stylesheet" href="{{ asset("css/projecten.css") }}">
+    <script type="text/javascript" src="{{ asset("js/projecten.js") }}"></script>
 @stop
 
 @section("content")
@@ -13,7 +13,7 @@
     <div id="pagina1">
         <div class="row header">
             <div class="col-sm-7">
-                <a href="{{ url("/") }}"><img src="images/logo_hoek.png" alt="logo" /></a>
+                <a href="{{ url("/") }}"><img src="{{ asset("images/logo_hoek.png") }}" alt="logo" /></a>
             </div>
             <div class="col-sm-5">
                 @include("partials.menu")
@@ -31,12 +31,12 @@
                     <li><a class="menu2" id="pagina6link" href="">Websites</a></li>
                 </ul>
             </div>
-            <img src="images/achtergrond2.png" alt="achtergrond"/>
+            <img src="{{ asset("images/achtergrond2.png") }}" alt="achtergrond"/>
         </div>
     </div>
 
     <div id="pagina2" class="pagina grijs">
-        <img src="images/cube.png" alt="led cube">
+        <img src="{{ asset("images/cube.png") }}" alt="led cube">
         <div class="inhoud">
             <h1>Led Cube</h1>
             <p>
@@ -61,7 +61,7 @@
     </div>
 
     <div id="pagina3" class="pagina wit">
-        <img src="images/thermostaat.png" alt="thermostaat">
+        <img src="{{ asset("images/thermostaat.png") }}" alt="thermostaat">
         <div class="inhoud">
             <h1>Thermostaat</h1>
             <p>
@@ -88,7 +88,7 @@
 
 
     <div id="pagina4" class="pagina grijs">
-        <img src="images/clock.png" alt="pov-clock">
+        <img src="{{ asset("images/clock.png") }}" alt="pov-clock">
         <div class="inhoud">
             <h1>Hdd-clock</h1>
             <p>
@@ -106,7 +106,7 @@
     </div>
 
     <div id="pagina5" class="pagina wit">
-        <img src="images/website-thermo.png" alt="website thermostaat"/>
+        <img src="{{ asset("images/website-thermo.png") }}" alt="website thermostaat"/>
 
         <div class="inhoud">
             <h1>Thermo website</h1>
