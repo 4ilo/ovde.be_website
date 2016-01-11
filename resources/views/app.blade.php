@@ -6,10 +6,10 @@
     
     <title>@yield("titel")</title>
     
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{{ asset("css/bootstrap.min.css") }}">
+    <link rel="stylesheet" href="{{ asset("css/style.css") }}">
+    <script src="{{ asset("js/jquery.js") }}"></script>
+    <script src="{{ asset("js/bootstrap.min.js") }}"></script>
 
     @yield("header")
 

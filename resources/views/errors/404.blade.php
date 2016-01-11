@@ -1,7 +1,7 @@
 
 @extends("app")
 
-@section("titel","Ovde - 503")
+@section("titel","Ovde - 404")
 
 @section("header")
     <link rel="stylesheet" href="{{ asset("css/over.css") }}">
