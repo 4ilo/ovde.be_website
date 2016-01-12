@@ -19,7 +19,7 @@
     </div>
     <div class="row">
         <div class="col-sm-2"></div>
-        <div class="col-sm-4 contact">
+        <div class="col-sm-4 text-right contact">
             <img alt="contact" src="{{ asset("images/contact.png") }}">
         </div>
 

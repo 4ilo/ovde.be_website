@@ -69,7 +69,6 @@
         {
             $vps = new CloudAtCost();
             $vps->server(0);
-
             return view("paginas.status",compact("vps"));
         }
     }
