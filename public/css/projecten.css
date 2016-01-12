@@ -3,143 +3,35 @@
 }
 
 .header ul li a {
-    color: #575757;
-}
-
-#achtergrond 	{
-
-    width: 100%;
-    height: 57%;
-    margin: 0px auto 0px auto;
-}
-
-#nav2 {
-
-    position: fixed;
-    left: 30px;
-    top: 140px;
-    background-color: #232323;
-    z-index: 1;
-}
-ul {
-    list-style-type: none;
-}
-#nav2 ul li {
-
-    margin: 10px;
-}
-#nav2 ul li a {
-
-    text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: white;
-}
-#nav2 ul li a:hover {
-
-    text-decoration: underline;
-    color: #007eff;
-}
-
-#achtergrond img 	{
-    margin: 0;
-    width: 100%;
+    color: #575757!important;
 }
 
 .home {
-    background-color: white;
+    background-color: #232323;
     background-image: none;
 }
 
-#pagina1 {
-    width: 100%;
-    height: 760px;
+.top {
+    margin-top: 30px;
 }
 
-#pagina2 {
-    width: 100%;
-    height: 760px;
-    background-color: #232323;
+h1 {
+    color: white;
 }
 
-#pagina3 {
-    width: 100%;
-    height: 760px;
-    background-color: white;
+p {
+    color: white;
 }
 
-#pagina4 {
-    width: 100%;
-    height: 760px;
-    background-color: #232323;
+ul {
+    color: white;
+    list-style-type: none;
 }
 
-#pagina5 {
-    width: 100%;
-    height: 760px;
-    background-color: white;
+.inhoud img {
+    margin-top: 20px;
 }
 
-#pagina6 {
-    width: 100%;
-    height: 760px;
-    background-color: #232323;
+.inhoud .row {
+    margin-bottom: 30px;
 }
-
-huidig {
-
-    text-decoration: underline !important;
-    color: #007eff !important;
-}
-
-.grijs {
-
-    color: white !important;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.wit {
-
-    color: #232323 !important;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.pagina .inhoud {
-
-    position: absolute;
-    right: 0px;
-    width: 400px;
-    z-index: 1;
-
-}
-
-.pagina h1 {
-
-    margin-top: 60px;
-    margin-bottom: 10px;
-    font-size: 25px;
-}
-
-.pagina ul{
-
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.pagina img {
-    /*width: 800px;*/
-    /*width: 70%;*/
-    height: 90%;
-    max-height: 660px;
-    margin-top: 50px;
-    margin-left: 50px;
-    z-index: 0;
-    position: absolute;
-}
-
-
-
-
-
-

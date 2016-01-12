@@ -14,7 +14,7 @@
     @yield("header")
 
 </head>
-<body class="home">
+<body class="home" @yield("bodyAttr")>
 
     <div class="container-fluid">
         @yield("content")
