@@ -1,6 +1,6 @@
 @extends("app")
 
-@section("titel","Ovde - test")
+@section("titel","Ovde - Projecten")
 
 @section("header")
     <link rel="stylesheet" href="{{ asset("css/projecten.css") }}">
