@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
 
-.header nav ul a {
+.navbar ul a {
     color: white;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
@@ -9,9 +9,9 @@
     margin-top: 10px;
 }
 
-.header nav ul a:hover {
-    text-decoration: underline!important;
-    background-color: transparent!important;
+.navbar ul a:hover {
+    text-decoration: underline !important;
+    background-color: transparent !important;
     color: white;
 }
 
