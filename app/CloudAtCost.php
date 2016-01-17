@@ -23,9 +23,10 @@
         public function __construct()
         {
             $this->verbinding = new CACApi(array(
-                'key' => "Y4UZA5U1yqyPuseWysAGEXAbE",
+                'key' => "uPuLuTY3Ypy9EtEjyjYGY4uXu",
                 "login" => "oliviervandeneede@hotmail.com"
             ));
+            dd($this->verbinding);
         }
 
         /**
