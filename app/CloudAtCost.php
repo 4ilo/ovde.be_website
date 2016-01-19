@@ -26,7 +26,6 @@
                 'key' => "uPuLuTY3Ypy9EtEjyjYGY4uXu",
                 "login" => "oliviervandeneede@hotmail.com"
             ));
-            dd($this->verbinding);
         }
 
         /**
