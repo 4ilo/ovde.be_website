@@ -6,6 +6,7 @@
 @section("header")
     <link rel="stylesheet" href="{{ asset("css/contact.css") }}">
     <script type="text/javascript" src="{{ asset("js/contact.js") }}"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 @stop
 
 @section("content")
@@ -52,6 +53,8 @@
                         <textarea rows="5" required cols="40" name ="vraag" id="vraag" onchange="check()"></textarea>
 
                     </p>
+
+                    <div class="g-recaptcha" data-sitekey="{{ env("RE_CAP_SITE") }}"></div>
 
                     <input id="knop" class="knoppen" name="verzenden" type="button" value="Verzenden" onclick="controleer()" />
                     <input class="knoppen" type="button" onclick="leeg()" value="Leegmaken" />
