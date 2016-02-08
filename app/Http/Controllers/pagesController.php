@@ -2,6 +2,8 @@
 
     namespace App\Http\Controllers;
 
+    use fdisotto\CACApi;
+    use GuzzleHttp\Client;
     use App\CloudAtCost;
     use Illuminate\Support\Facades\Mail;
     use App\Http\Requests\contactRequest;
@@ -75,6 +77,10 @@
          */
         private function checkCaptcha($request)
         {
+            if(env("RECAPTCHA_BYPASS",false))
+            {
+                return true;
+            }
             $response = $request->input("g-recaptcha-response");
             $remoteip = $_SERVER['REMOTE_ADDR'];
             $secret   = env('RE_CAP_SECRET');

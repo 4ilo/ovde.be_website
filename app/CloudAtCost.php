@@ -23,8 +23,8 @@
         public function __construct()
         {
             $this->verbinding = new CACApi(array(
-                'key' => env("CAC_API"),
-                "login" => "oliviervandeneede@hotmail.com"
+                "key" => env("CAC_KEY"),
+                "login" => env("CAC_LOGIN")
             ));
         }
 
@@ -36,7 +36,7 @@
         public function server($id)
         {
             $temp = $this->verbinding->getServers();
-            if (isset($temp["status"]))
+            if (isset($temp["status"]) || $temp == null)
             {
                 throw new CloudAtCostLoginFailException;
             }
