@@ -1,5 +1,10 @@
 language: php
 php:
 - 7.0
-- hhvm
-script: phpunit
+before_script:
+  - cp .env.travis .env
+  - composer self-update
+  - composer install --no-interaction
+
+script:
+  - vendor/bin/phpunit
