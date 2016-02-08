@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6d77b4e-a182-4d40-9e41-c7e5a89f7f7a" name="Default" comment="- stylesheets zijn nu geminimaliseerd en samengevoegd">
+    <list default="true" id="d6d77b4e-a182-4d40-9e41-c7e5a89f7f7a" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env.travis" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
@@ -517,7 +517,8 @@
     <MESSAGE value="- bugfix" />
     <MESSAGE value="- added phpstorm helpers" />
     <MESSAGE value="- stylesheets zijn nu geminimaliseerd en samengevoegd" />
-    <option name="LAST_COMMIT_MESSAGE" value="- stylesheets zijn nu geminimaliseerd en samengevoegd" />
+    <MESSAGE value="-travis file voor testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="-travis file voor testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
