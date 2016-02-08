@@ -8,7 +8,7 @@
     
     namespace App;
 
-    use fdisotto\CACApi;
+    use App\CACApi;
     use App\Exceptions\CloudAtCostLoginFailException;
 
     class CloudAtCost
