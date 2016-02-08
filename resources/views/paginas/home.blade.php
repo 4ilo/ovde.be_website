@@ -3,6 +3,10 @@
 
 @section("titel","Ovde - Home")
 
+@section("header")
+    <link rel="stylesheet" href="/css/home.css" />
+@stop
+
 @section("content")
     <div class="row">
         <div class="col-sm-7"></div>

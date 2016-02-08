@@ -1,10 +1,9 @@
-
 @extends("app")
 
 @section("titel","Ovde - Contact")
 
 @section("header")
-    <link rel="stylesheet" href="{{ asset("css/contact.css") }}">
+    <link rel="stylesheet" href="/css/contact.css">
     <script type="text/javascript" src="{{ asset("js/contact.js") }}"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
 @stop

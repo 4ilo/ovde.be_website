@@ -1,0 +1,36 @@
+.header {
+    background-color: white;
+}
+
+.header ul li a {
+    color: #575757!important;
+}
+
+.home {
+    background: #232323 none;
+}
+
+.top {
+    margin-top: 30px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+}
+
+.inhoud img {
+    margin-top: 20px;
+}
+
+.inhoud .row {
+    margin-bottom: 30px;
+}

@@ -3,7 +3,7 @@
 @section("titel","Ovde - Over")
 
 @section("header")
-    <link rel="stylesheet" href="{{ asset("css/over.css") }}">
+    <link rel="stylesheet" href="css/over.css">
 @stop
 
 @section("content")

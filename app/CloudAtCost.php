@@ -23,7 +23,7 @@
         public function __construct()
         {
             $this->verbinding = new CACApi(array(
-                'key' => "uPuLuTY3Ypy9EtEjyjYGY4uXu",
+                'key' => env("CAC_API"),
                 "login" => "oliviervandeneede@hotmail.com"
             ));
         }

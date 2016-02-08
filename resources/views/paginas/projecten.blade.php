@@ -3,8 +3,8 @@
 @section("titel","Ovde - Projecten")
 
 @section("header")
-    <link rel="stylesheet" href="{{ asset("css/projecten.css") }}">
-    <script type="text/javascript" src="{{ asset("js/scrollspy.js") }}"></script>
+    <link rel="stylesheet" href="css/projecten.css">
+    <script type="text/javascript" src="js/projecten.js"></script>
 @stop
 
 @section("bodyAttr")

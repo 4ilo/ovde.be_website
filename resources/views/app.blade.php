@@ -5,11 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <title>@yield("titel")</title>
-    
-    <link rel="stylesheet" href="{{ asset("css/bootstrap.min.css") }}">
-    <link rel="stylesheet" href="{{ asset("css/style.css") }}">
-    <script src="{{ asset("js/jquery.js") }}"></script>
-    <script src="{{ asset("js/bootstrap.min.js") }}"></script>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     @yield("header")
 
