@@ -30,10 +30,4 @@
                  ->press("verzenden")
                  ->see("Email is verzonden");
         }
-
-        public function testStatusPagina()
-        {
-            $this->visit("/status")
-                 ->see("Server status:");
-        }
     }
