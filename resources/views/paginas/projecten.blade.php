@@ -22,7 +22,7 @@
     </div>
     <div class="row top">
         <nav class="col-sm-2" id="myScrollspy">
-            <ul class="nav nav-pills nav-stacked" id="menu" data-spy="affix" data-offset-top="125">
+            <ul class="nav nav-pills nav-stacked" id="menu" data-spy="affix" data-offset-top="0">
                 <li><a href="#top">Top</a></li>
                 <li><a href="#cube">Led Cube</a></li>
                 <li><a href="#thermostaat">Thermostaat</a></li>

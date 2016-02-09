@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
 
+.navbar {
+    margin-top: 20px;
+}
+
 .navbar ul a {
     color: white;
     text-decoration: none;
@@ -16,7 +20,7 @@
 }
 
 .home {
-    background-size: 100%;
+    background-size: 100% !important;
     background: #232323 url(../images/background.png) no-repeat;
 }
 
