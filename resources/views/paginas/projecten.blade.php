@@ -29,6 +29,7 @@
                 <li><a href="#hdd">Hdd-Clock</a></li>
                 <li><a href="#thermo">Thermo Website</a></li>
                 <li><a href="#websites">Websites</a></li>
+                <li><a href="#serialwrite">Serial Write</a></li>
             </ul>
         </nav>
         <div class="col-sm-10 inhoud">         <!-- vanaf hier komen de pagina's -->
@@ -137,12 +138,35 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <h1>Websites</h1>
-
                         <p>
                             Samen met mijn vriendin heb ik verschillende websites gemaakt voor famillie en vrienden die een eigen zaak hebben en nood hadden aan een goede website.
                         </p>
                         <br/>
                         <A HREF="http://click-design.tk/" class="grijs">Click-design</A>
+                    </div>
+                </div>
+            </div>
+            <div id="serialwrite">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1>SerialWrite</h1>
+                        <p>
+                            Door het ontbreken aan een programma om seriele communicatie te kunnen doen met mijn embedded projecten
+                            heb ik zelf een Qt-programma geschreven dat voldoet aan mijn normen.
+                        </p>
+                        <ul>
+                            <li>- StandAlone</li>
+                            <li>- Universeel (windows/mac)</li>
+                            <li>- Eenvoudige configuratie</li>
+                            <li>- input veld met geschiedenis(up/down-key)</li>
+                            <li>- Print hele lijnen in 1 keer</li>
+                        </ul>
+                        <br/>
+                        <A HREF="/documenten/serialwrite/serialWrite v1.0.dmg" class="grijs">Mac</A><br/>
+                        <A HREF="/documenten/serialwrite/SerialWriteSetup v1.0.exe" class="grijs">Windows</A>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="{{ asset("/images/serialwrite.png") }}" class="img-responsive" alt="serialWrite">
                     </div>
                 </div>
             </div>

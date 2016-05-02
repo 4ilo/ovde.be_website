@@ -43,7 +43,7 @@
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-phone logo-small"></span>
                     <h4>Simple embedded systems</h4>
-                    <p>8-bit gebaseerde embedded systemen op maat</p>
+                    <p>8/32-bit gebaseerde embedded systemen op maat</p>
                 </div>
             </div>
             <br><br>
@@ -51,8 +51,8 @@
                 <div class="col-sm-2"></div>
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-duplicate logo-small"></span>
-                    <h4>Simple C/C++</h4>
-                    <p>Command line tools</p>
+                    <h4>C/C++ in Qt</h4>
+                    <p>Krachtige GUI applications geschreven in het Qt-Framework</p>
                 </div>
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-education logo-small"></span>

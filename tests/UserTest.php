@@ -24,9 +24,9 @@
         {
             $this->visit("/contact")
                  ->see("form")
-                 ->type("margaux","naam")
-                 ->type("margaux@hotmail.com","email")
-                 ->type("Heey, wat een mooie website!\n[PhpUnit test]","vraag")
+                 ->type("margaux", "naam")
+                 ->type("margaux@hotmail.com", "email")
+                 ->type("Heey, wat een mooie website!\n[PhpUnit test]", "vraag")
                  ->press("verzenden")
                  ->see("Email is verzonden");
         }
