@@ -162,6 +162,7 @@
                             <li>- Print hele lijnen in 1 keer</li>
                         </ul>
                         <br/>
+                        <a href="https://github.com/4ilo/serialWrite" target="_blank" class="grijs">Github repo</a><br/>
                         <A HREF="/documenten/serialwrite/serialWrite v1.0.dmg" class="grijs">Mac</A><br/>
                         <A HREF="/documenten/serialwrite/SerialWriteSetup v1.0.exe" class="grijs">Windows</A>
                     </div>
