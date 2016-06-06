@@ -30,6 +30,7 @@
                 <li><a href="#thermo">Thermo Website</a></li>
                 <li><a href="#websites">Websites</a></li>
                 <li><a href="#serialwrite">Serial Write</a></li>
+                <li><a href="#jukebox">Wireless-Jukebox</a></li>
             </ul>
         </nav>
         <div class="col-sm-10 inhoud">         <!-- vanaf hier komen de pagina's -->
@@ -158,7 +159,7 @@
                             <li>- StandAlone</li>
                             <li>- Universeel (windows/mac)</li>
                             <li>- Eenvoudige configuratie</li>
-                            <li>- input veld met geschiedenis(up/down-key)</li>
+                            <li>- input veld met geschiedenis (up/down-key)</li>
                             <li>- Print hele lijnen in 1 keer</li>
                         </ul>
                         <br/>
@@ -168,6 +169,33 @@
                     </div>
                     <div class="col-sm-6">
                         <img src="{{ asset("/images/serialwrite.png") }}" class="img-responsive" alt="serialWrite">
+                    </div>
+                </div>
+            </div>
+
+            <div id="jukebox">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1>Wireless-Jukebox</h1>
+                        <p>
+                            Voor het 2de jaar van mijn studie Embedded-Ict heb ik een project gemaakt, namelijk de wireless-jukebox.<br/>
+                            Dit is een module die aan een stereo installatie gekoppeld wordt in een ruimte waar zich een aantal mensen bevinden. Als deze mensen verbonden zijn met het wifi netwerk, kunnen ze naar een website op de wireless jukebox surfen en daar stemmen op het liedje dat als volgend afgespeeld zal worden. <br/>
+
+                            De module maakt gebruik van een μc met een sdio interface voor de communicatie met een sd-kaart waarop alle liedjes opstaan. De module is met een wifi netwerk verbonden via een esp-8266 wifi module waarop ook de website draait.
+                            Voor het afspelen van muziek wordt er gebruik gemaakt van een PWM output die verbonden is aan een jack-connector.
+                        </p>
+                        <ul>
+                            <li>- StandAlone</li>
+                            <li>- Sd-kaart</li>
+                            <li>- Esp8266 webserver</li>
+                            <li>- Stm32F4 microcontroller</li>
+                            <li>- Custom pcb</li>
+                        </ul>
+                        <br/>
+                        <a href="https://github.com/4ilo/Wireless-Jukebox" target="_blank" class="grijs">Github repo</a><br/>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="{{ asset("/images/jukebox.png") }}" class="img-responsive" alt="Wireless-Jukebox">
                     </div>
                 </div>
             </div>
