@@ -2,8 +2,161 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d77b4e-a182-4d40-9e41-c7e5a89f7f7a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Listeners/.gitkeep" afterPath="$PROJECT_DIR$/app/Listeners/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Policies/.gitkeep" afterPath="$PROJECT_DIR$/app/Policies/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/.gitkeep" afterPath="$PROJECT_DIR$/database/migrations/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/.gitkeep" afterPath="$PROJECT_DIR$/database/seeds/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/documenten/cube/LedCube-prog.zip" afterPath="$PROJECT_DIR$/public/documenten/cube/LedCube-prog.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/documenten/cube/cube-fotos.zip" afterPath="$PROJECT_DIR$/public/documenten/cube/cube-fotos.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/documenten/cube/schema_cube.png" afterPath="$PROJECT_DIR$/public/documenten/cube/schema_cube.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/documenten/serialwrite/serialWrite v1.0.dmg" afterPath="$PROJECT_DIR$/public/documenten/serialwrite/serialWrite v1.0.dmg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/documenten/thermo-site/Website-thermo.zip" afterPath="$PROJECT_DIR$/public/documenten/thermo-site/Website-thermo.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/documenten/thermo/schemas-thermo.zip" afterPath="$PROJECT_DIR$/public/documenten/thermo/schemas-thermo.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/documenten/thermo/thermo-foto.zip" afterPath="$PROJECT_DIR$/public/documenten/thermo/thermo-foto.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/documenten/thermo/thermo-prog.zip" afterPath="$PROJECT_DIR$/public/documenten/thermo/thermo-prog.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/documenten/thermo/thermo-verslag.pdf" afterPath="$PROJECT_DIR$/public/documenten/thermo/thermo-verslag.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/achtergrond2.png" afterPath="$PROJECT_DIR$/public/images/achtergrond2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/background.png" afterPath="$PROJECT_DIR$/public/images/background.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/clock.png" afterPath="$PROJECT_DIR$/public/images/clock.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/contact.png" afterPath="$PROJECT_DIR$/public/images/contact.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/cube.png" afterPath="$PROJECT_DIR$/public/images/cube.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/doorzichtig.png" afterPath="$PROJECT_DIR$/public/images/doorzichtig.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/jukebox.png" afterPath="$PROJECT_DIR$/public/images/jukebox.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/logo_hoek.png" afterPath="$PROJECT_DIR$/public/images/logo_hoek.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/logo_home.png" afterPath="$PROJECT_DIR$/public/images/logo_home.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/serialwrite.png" afterPath="$PROJECT_DIR$/public/images/serialwrite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/thermostaat.png" afterPath="$PROJECT_DIR$/public/images/thermostaat.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/website-thermo.png" afterPath="$PROJECT_DIR$/public/images/website-thermo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/vendor/.gitkeep" afterPath="$PROJECT_DIR$/resources/views/vendor/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env.example" afterPath="$PROJECT_DIR$/.env.example" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env.travis" afterPath="$PROJECT_DIR$/.env.travis" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/blade.xml" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ovde.iml" afterPath="$PROJECT_DIR$/.idea/ovde.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_ide_helper.php" afterPath="$PROJECT_DIR$/_ide_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/CACApi.php" afterPath="$PROJECT_DIR$/app/CACApi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/CloudAtCost.php" afterPath="$PROJECT_DIR$/app/CloudAtCost.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Commands/Inspire.php" afterPath="$PROJECT_DIR$/app/Console/Commands/Inspire.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Curl.php" afterPath="$PROJECT_DIR$/app/Curl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Events/Event.php" afterPath="$PROJECT_DIR$/app/Events/Event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Exceptions/CloudAtCostLoginFailException.php" afterPath="$PROJECT_DIR$/app/Exceptions/CloudAtCostLoginFailException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/pagesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/pagesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/Request.php" afterPath="$PROJECT_DIR$/app/Http/Requests/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/contactRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/contactRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Jobs/Job.php" afterPath="$PROJECT_DIR$/app/Jobs/Job.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artisan" afterPath="$PROJECT_DIR$/artisan" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/app.php" afterPath="$PROJECT_DIR$/bootstrap/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/autoload.php" afterPath="$PROJECT_DIR$/bootstrap/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/auth.php" afterPath="$PROJECT_DIR$/config/auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/broadcasting.php" afterPath="$PROJECT_DIR$/config/broadcasting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/cache.php" afterPath="$PROJECT_DIR$/config/cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/compile.php" afterPath="$PROJECT_DIR$/config/compile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mail.php" afterPath="$PROJECT_DIR$/config/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/queue.php" afterPath="$PROJECT_DIR$/config/queue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/services.php" afterPath="$PROJECT_DIR$/config/services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/session.php" afterPath="$PROJECT_DIR$/config/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/view.php" afterPath="$PROJECT_DIR$/config/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/.gitignore" afterPath="$PROJECT_DIR$/database/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_01_19_192017_createAntwoordenTabel.php" afterPath="$PROJECT_DIR$/database/migrations/2016_01_19_192017_createAntwoordenTabel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/phpunit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/contact.css" afterPath="$PROJECT_DIR$/public/css/contact.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/contact.css.map" afterPath="$PROJECT_DIR$/public/css/contact.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/home.css" afterPath="$PROJECT_DIR$/public/css/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/home.css.map" afterPath="$PROJECT_DIR$/public/css/home.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/over.css" afterPath="$PROJECT_DIR$/public/css/over.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/over.css.map" afterPath="$PROJECT_DIR$/public/css/over.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/projecten.css" afterPath="$PROJECT_DIR$/public/css/projecten.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/projecten.css.map" afterPath="$PROJECT_DIR$/public/css/projecten.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/contact.js" afterPath="$PROJECT_DIR$/public/js/contact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/contact.js.map" afterPath="$PROJECT_DIR$/public/js/contact.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/npm.js" afterPath="$PROJECT_DIR$/public/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/projecten.js" afterPath="$PROJECT_DIR$/public/js/projecten.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/projecten.js.map" afterPath="$PROJECT_DIR$/public/js/projecten.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sitemap.xml" afterPath="$PROJECT_DIR$/public/sitemap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/web.config" afterPath="$PROJECT_DIR$/public/web.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/resources/assets/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/contact.css" afterPath="$PROJECT_DIR$/resources/assets/css/contact.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/over.css" afterPath="$PROJECT_DIR$/resources/assets/css/over.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/projecten.css" afterPath="$PROJECT_DIR$/resources/assets/css/projecten.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/style.css" afterPath="$PROJECT_DIR$/resources/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/resources/assets/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/contact.js" afterPath="$PROJECT_DIR$/resources/assets/js/contact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.js" afterPath="$PROJECT_DIR$/resources/assets/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/scrollspy.js" afterPath="$PROJECT_DIR$/resources/assets/js/scrollspy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/emails/contact.blade.php" afterPath="$PROJECT_DIR$/resources/views/emails/contact.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/errors/403.blade.php" afterPath="$PROJECT_DIR$/resources/views/errors/403.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/errors/404.blade.php" afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/errors/503.blade.php" afterPath="$PROJECT_DIR$/resources/views/errors/503.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/paginas/contact.blade.php" afterPath="$PROJECT_DIR$/resources/views/paginas/contact.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/paginas/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/paginas/home.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/paginas/over.blade.php" afterPath="$PROJECT_DIR$/resources/views/paginas/over.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/paginas/projecten.blade.php" afterPath="$PROJECT_DIR$/resources/views/paginas/projecten.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/paginas/status.blade.php" afterPath="$PROJECT_DIR$/resources/views/paginas/status.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/partials/menu.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/menu.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.php" afterPath="$PROJECT_DIR$/server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/app/.gitignore" afterPath="$PROJECT_DIR$/storage/app/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="$PROJECT_DIR$/tests/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/UserTest.php" afterPath="$PROJECT_DIR$/tests/UserTest.php" />
     </list>
     <ignored path="ovde.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +188,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projecten.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projecten.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/paginas/projecten.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="180" column="137" selection-start-line="180" selection-start-column="137" selection-end-line="180" selection-end-column="137" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -97,7 +260,6 @@
         <option value="$PROJECT_DIR$/resources/views/paginas/home.blade.php" />
         <option value="$PROJECT_DIR$/public/js/npm.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/css/contact.css" />
         <option value="$PROJECT_DIR$/resources/assets/css/projecten.css" />
         <option value="$PROJECT_DIR$/resources/assets/css/over.css" />
@@ -116,11 +278,12 @@
         <option value="$PROJECT_DIR$/tests/UserTest.php" />
         <option value="$PROJECT_DIR$/resources/views/paginas/over.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/paginas/projecten.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <gulpfiles>
@@ -128,6 +291,7 @@
         <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
       </GulpfileState>
     </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpServers">
     <servers />
@@ -136,7 +300,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="700" />
+    <option name="height" value="703" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -312,8 +476,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,7 +548,8 @@
       <option name="presentableId" value="Default" />
       <updated>1452452691808</updated>
       <workItem from="1462199078599" duration="1432000" />
-      <workItem from="1465234786134" duration="431000" />
+      <workItem from="1465234786134" duration="1029000" />
+      <workItem from="1469369302445" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="update readme">
       <created>1452456996346</created>
@@ -530,10 +695,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1863000" />
+    <option name="totallyTimeSpent" value="2479000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="700" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="703" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -857,38 +1022,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/paginas/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -960,6 +1108,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="180" column="137" selection-start-line="180" selection-start-column="137" selection-end-line="180" selection-end-column="137" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding />
         </state>
       </provider>
