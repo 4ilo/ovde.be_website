@@ -150,7 +150,7 @@
             <div id="serialwrite">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h1>SerialWrite</h1>
+                        <h1>SerialWrite V1.1</h1>
                         <p>
                             Door het ontbreken aan een programma om seriele communicatie te kunnen doen met mijn embedded projecten
                             heb ik zelf een Qt-programma geschreven dat voldoet aan mijn normen.
@@ -164,8 +164,8 @@
                         </ul>
                         <br/>
                         <a href="https://github.com/4ilo/serialWrite" target="_blank" class="grijs">Github repo</a><br/>
-                        <A HREF="/documenten/serialwrite/serialWrite v1.0.dmg" class="grijs">Mac</A><br/>
-                        <A HREF="/documenten/serialwrite/SerialWriteSetup v1.0.exe" class="grijs">Windows</A>
+                        <A HREF="/documenten/serialwrite/serialWrite v1.1.dmg" class="grijs">Mac</A><br/>
+                        <A HREF="/documenten/serialwrite/SerialWriteSetup v1.1.exe" class="grijs">Windows</A>
                     </div>
                     <div class="col-sm-6">
                         <img src="{{ asset("/images/serialwrite.png") }}" class="img-responsive" alt="serialWrite">
