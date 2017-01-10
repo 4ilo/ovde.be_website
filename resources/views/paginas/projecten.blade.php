@@ -143,7 +143,7 @@
                             Samen met mijn vriendin heb ik verschillende websites gemaakt voor famillie en vrienden die een eigen zaak hebben en nood hadden aan een goede website.
                         </p>
                         <br/>
-                        <A HREF="http://click-design.tk/" class="grijs">Click-design</A>
+                        <A HREF="/contact" class="grijs">Vraag voor voorbeelden</A>
                     </div>
                 </div>
             </div>
