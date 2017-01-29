@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\CloudAtCost;
-use GuzzleHttp\Client;
 use ReCaptcha\ReCaptcha;
 use App\Mail\ContactFormMail;
 use Illuminate\Support\Facades\Mail;
