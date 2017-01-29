@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\CloudAtCost;
 use GuzzleHttp\Client;
 use ReCaptcha\ReCaptcha;
+use App\Mail\ContactFormMail;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Requests\contactRequest;
 
@@ -60,10 +61,12 @@ class pagesController extends Controller
         }
             // Hier is de captcha gevalideerd
 
-        Mail::send('emails.contact', ["request" => $request], function ($message) {
-            $message->from('contact@ovde.be', 'Ovde.be');
-            $message->to('oliviervandeneede@hotmail.com')->subject("Contactformulier");
-        });
+        Mail::to("oliviervandeneede@hotmail.com")->send(new ContactFormMail($request));
+
+        // Mail::send('emails.contact', ["request" => $request], function ($message) {
+        //     $message->from('contact@ovde.be', 'Ovde.be');
+        //     $message->to('oliviervandeneede@hotmail.com')->subject("Contactformulier");
+        // });
 
         session()->flash("flash_message","Email is verzonden.");
         return redirect("contact");
