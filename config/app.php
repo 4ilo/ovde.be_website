@@ -2,6 +2,16 @@
 
 return [
 
+    /**
+     * Cloud at cost server api configuration
+     */
+    
+    "CloudAtCost" => [
+        "login" => env("CAC_LOGIN"),
+        "key" => env("CAC_KEY")
+    ],
+
+
     'name' => 'Ovde.be',
 
     /*
