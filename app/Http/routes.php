@@ -20,7 +20,7 @@
 | it contains. The "web" middleware group is defined in your HTTP
 | kernel and includes session state, CSRF protection, and more.
 |
-*/
+*/	
 
 Route::group(['middleware' => ['web']], function () {
     Route::get("/","pagesController@home");
@@ -30,4 +30,6 @@ Route::group(['middleware' => ['web']], function () {
     Route::post("mail","pagesController@sendMail");
 
     Route::get("status","pagesController@status");
+
+    Route::get(".well-known/acme-challenge/nLUCcQtJYExHk6vHhWE0nsTbj0hHUfSHo2HqDAAEUH0", "pagesController@letsEncrypt");
 });
