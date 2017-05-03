@@ -1,4 +1,15 @@
+@component('mail::message')
+# {{ $senderName }} stuurde u een bericht via de website:
 
-    <h2>Mail van {{ $request->naam }} :</h2>
-    <h4>{{ $request->email }}</h4>
-    <p>{{ $request->vraag }}</p>
+@component("mail::panel")
+{{ $message }}
+@endcomponent
+
+-----
+
+{{ $senderName }} - {{ $senderMail }}
+
+
+Thanks,<br>
+{{ config('app.name') }}
+@endcomponent

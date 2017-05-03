@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\CloudAtCost;
-use GuzzleHttp\Client;
 use ReCaptcha\ReCaptcha;
+use App\Mail\ContactFormMail;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Requests\contactRequest;
 
@@ -12,7 +12,7 @@ class pagesController extends Controller
 {
     /**
      * De homepage
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return \Illuminate\View\View
      */
     public function home()
     {
@@ -21,7 +21,7 @@ class pagesController extends Controller
 
     /**
      * Over olivier pagina
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return \Illuminate\View\View
      */
     public function over()
     {
@@ -30,7 +30,7 @@ class pagesController extends Controller
 
     /**
      * Projecten pagina
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return \Illuminate\View\View
      */
     public function projecten()
     {
@@ -39,7 +39,7 @@ class pagesController extends Controller
 
     /**
      * De contact pagina
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return \Illuminate\View\View
      */
     public function contact()
     {
@@ -49,7 +49,7 @@ class pagesController extends Controller
     /**
      *  Deze method stuurt de mail van het contactformulier
      *  @param contactRequest $request
-     *  @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     *  @return \Illuminate\Routing\Redirector
      */
     public function sendMail(contactRequest $request)
     {
@@ -58,12 +58,11 @@ class pagesController extends Controller
             session()->flash("flash_message","reCAPTCHA is niet ingevuld");
             return redirect()->back()->withInput();
         }
-            // Hier is de captcha gevalideerd
+        
+        // Hier is de captcha gevalideerd
 
-        Mail::send('emails.contact', ["request" => $request], function ($message) {
-            $message->from('contact@ovde.be', 'Ovde.be');
-            $message->to('oliviervandeneede@hotmail.com')->subject("Contactformulier");
-        });
+        Mail::to("oliviervandeneede@hotmail.com")->send(new ContactFormMail($request));
+
 
         session()->flash("flash_message","Email is verzonden.");
         return redirect("contact");
@@ -97,13 +96,14 @@ class pagesController extends Controller
 
 
     /**
-     *  Een statuspagina met ram,cpu en hdd usage
-     *  @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     *  @throws \App\Exceptions\CloudAtCostLoginFailException
+     * Een statuspagina met ram,cpu en hdd usage
+     *
+     * @param      \App\CloudAtCost       $vps    Server object
+     *
+     * @return     \Illuminate\View\View
      */
-    public function status()
+    public function status(CloudAtCost $vps)
     {
-        $vps = new CloudAtCost(env("CAC_KEY"), env("CAC_LOGIN"));
         $vps->selectServer("ovde.be");
 
         return view("paginas.status",compact("vps"));

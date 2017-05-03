@@ -2,6 +2,18 @@
 
 return [
 
+    /**
+     * Cloud at cost server api configuration
+     */
+    
+    "CloudAtCost" => [
+        "login" => env("CAC_LOGIN"),
+        "key" => env("CAC_KEY")
+    ],
+
+
+    'name' => 'Ovde.be',
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
@@ -147,6 +159,9 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Illuminate\Notifications\NotificationServiceProvider::class,
+        Laravel\Tinker\TinkerServiceProvider::class,
+
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
         /*
@@ -202,6 +217,7 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+        'Notification' => Illuminate\Support\Facades\Notification::class,
 
     ],
 

@@ -37,10 +37,12 @@ class CloudAtCost
     {
         $requestData = $this->client->get("https://panel.cloudatcost.com/api/v1/listservers.php?key=".$this->apiKey."&login=".$this->apiLogin);
 
-        if( isset($requestData->json()["error"]) )
+        $this->data = json_decode($requestData->getBody(),true);
+
+        if( isset($this->data["error"]) )
             throw new CloudAtCostLoginFailException; 
 
-        $this->data = $requestData->json()["data"]; 
+        $this->data = $this->data["data"]; 
     }
 
     /**
