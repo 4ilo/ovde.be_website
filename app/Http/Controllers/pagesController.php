@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\CloudAtCost;
 use ReCaptcha\ReCaptcha;
 use App\Mail\ContactFormMail;
 use Illuminate\Support\Facades\Mail;
@@ -92,25 +91,5 @@ class pagesController extends Controller
             return true;
         }
         return false;
-    }
-
-
-    /**
-     * Een statuspagina met ram,cpu en hdd usage
-     *
-     * @param      \App\CloudAtCost       $vps    Server object
-     *
-     * @return     \Illuminate\View\View
-     */
-    public function status(CloudAtCost $vps)
-    {
-        $vps->selectServer("ovde.be");
-
-        return view("paginas.status",compact("vps"));
-    }
-
-    public function letsencrypt()
-    {
-        return "nLUCcQtJYExHk6vHhWE0nsTbj0hHUfSHo2HqDAAEUH0.boSQzXxiHH4Sy3HZMRXhipca3hN4YwjI6Qufk0Gd09g"    ;
     }
 }

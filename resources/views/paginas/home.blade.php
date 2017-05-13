@@ -4,6 +4,7 @@
 @section("titel","Ovde - Home")
 
 @section("header")
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <link rel="stylesheet" href="/css/home.css" />
 @stop
 
