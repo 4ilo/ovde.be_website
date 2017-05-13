@@ -13,3 +13,4 @@ env_variables:
   # values in ".env" instead if you prefer.
   APP_LOG: errorlog
   STORAGE_DIR: /tmp
+  APP_DEBUG: false
