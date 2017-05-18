@@ -1,4 +1,3 @@
-
 <nav class="navbar pull-right">
     <ul class="nav navbar-nav">
         <li><a href="{{ url("over") }}">Over Mij</a></li>

@@ -10,7 +10,7 @@
 @section("content")
     <div class="row header">
         <div class="col-sm-7">
-            <a href="{{ url("/") }}"><img class="img-responsive" src="{{ asset("images/logo_hoek.png") }}" alt="logo" /></a>
+            <a class="left" href="{{ url("/") }}"><img class="img-responsive" src="{{ asset("images/logo_hoek.png") }}" alt="logo" /></a>
         </div>
         <div class="col-sm-5">
             @include("partials.menu")
@@ -19,6 +19,9 @@
     <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-4 text-right contact">
+            <a target="_blank" href="https://www.vultr.com/?ref=7159849">
+                <img src="https://www.vultr.com/media/banner_3.png" width="300" height="250">
+            </a>
             <img alt="contact" src="{{ asset("images/contact.png") }}">
         </div>
 

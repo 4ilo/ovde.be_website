@@ -23,14 +23,19 @@
     <div class="row top">
         <nav class="col-sm-2" id="myScrollspy">
             <ul class="nav nav-pills nav-stacked" id="menu" data-spy="affix" data-offset-top="0">
-                <li><a href="#top">Top</a></li>
-                <li><a href="#cube">Led Cube</a></li>
-                <li><a href="#thermostaat">Thermostaat</a></li>
-                <li><a href="#hdd">Hdd-Clock</a></li>
-                <li><a href="#thermo">Thermo Website</a></li>
-                <li><a href="#websites">Websites</a></li>
-                <li><a href="#serialwrite">Serial Write</a></li>
-                <li><a href="#jukebox">Wireless-Jukebox</a></li>
+                <li class="link"><a href="#top">Top</a></li>
+                <li class="link"><a href="#cube">Led Cube</a></li>
+                <li class="link"><a href="#thermostaat">Thermostaat</a></li>
+                <li class="link"><a href="#hdd">Hdd-Clock</a></li>
+                <li class="link"><a href="#thermo">Thermo Website</a></li>
+                <li class="link"><a href="#websites">Websites</a></li>
+                <li class="link"><a href="#serialwrite">Serial Write</a></li>
+                <li class="link"><a href="#jukebox">Wireless-Jukebox</a></li>
+                <li>
+                    <a target="_blank" href="https://www.vultr.com/?ref=7159849">
+                        <img src="https://www.vultr.com/media/banner_3.png" width="200">
+                    </a>
+                </li>
             </ul>
         </nav>
         <div class="col-sm-10 inhoud">         <!-- vanaf hier komen de pagina's -->
