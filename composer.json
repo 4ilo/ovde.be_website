@@ -10,7 +10,9 @@
         "google/recaptcha": "~1.1",
         "barryvdh/laravel-ide-helper": "^2.1",
         "laravel/tinker": "^1.0",
-        "guzzlehttp/guzzle": "^6.2"
+        "guzzlehttp/guzzle": "^6.2",
+        "erusev/parsedown": "^1.6",
+        "filp/whoops": "~1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -28,9 +30,9 @@
         }
     },
     "autoload-dev": {
-        "classmap": [
-            "tests/TestCase.php"
-        ]
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     },
     "scripts": {
         "post-root-package-install": [

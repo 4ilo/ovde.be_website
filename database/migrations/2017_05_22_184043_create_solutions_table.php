@@ -1,9 +1,10 @@
 <?php
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateAntwoordenTabel extends Migration
+class CreateSolutionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,8 +13,11 @@ class CreateAntwoordenTabel extends Migration
      */
     public function up()
     {
-        Schema::create('antwoorden', function (Blueprint $table) {
+        Schema::create('solutions', function (Blueprint $table) {
             $table->increments('id');
+            $table->string("titel");
+            $table->text("body");
+            $table->unsignedInteger("tag_id");
             $table->timestamps();
         });
     }
@@ -25,6 +29,6 @@ class CreateAntwoordenTabel extends Migration
      */
     public function down()
     {
-        Schema::drop('antwoorden');
+        Schema::dropIfExists('solutions');
     }
 }

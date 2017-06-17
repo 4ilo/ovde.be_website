@@ -19,3 +19,25 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+$factory->define(App\Solution::class, function (Faker\Generator $faker) {
+    return [
+        'titel' => $faker->sentence(),
+        'body' => $faker->text(),
+        "tag_id" => factory("App\Tag")->create()->id,
+    ];
+});
+
+$factory->define(App\Tag::class, function (Faker\Generator $faker) {
+    return [
+        'name' => $faker->name,
+        'color' => $faker->hexColor(),
+    ];
+});
+
+$factory->define(App\Klant::class, function (Faker\Generator $faker) {
+    return [
+        'naam' => $faker->name,
+        'adres' => $faker->address(),
+    ];
+});
