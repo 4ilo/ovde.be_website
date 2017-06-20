@@ -40,3 +40,4 @@
     
     // Klanten routes
     Route::resource("klant","KlantController");
+    Route::patch("klant/{klant}/password", "KlantController@updatePassword");

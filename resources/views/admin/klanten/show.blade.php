@@ -31,6 +31,8 @@
                 <div class="panel-body">{{ $klant->adres }}</div>
             </div>
 
+            <Password value="{{ $klant->password }}"></Password>
+
             <h3>Afspraken:</h3>
             <?php \Carbon\Carbon::setLocale("nl") ?>
             @forelse($klant->afspraken as $afspraak)

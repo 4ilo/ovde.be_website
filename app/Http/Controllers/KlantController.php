@@ -92,6 +92,16 @@ class KlantController extends Controller
         
         return redirect("klant/" . $klant->id);
     }
+    
+    public function updatePassword(Request $request, Klant $klant)
+    {
+        $this->validate($request, ["password" => "required"]);
+        
+        $klant->password = $request->password;
+        $klant->update();
+        
+        return "succes";
+    }
 
     /**
      * Remove the specified resource from storage.

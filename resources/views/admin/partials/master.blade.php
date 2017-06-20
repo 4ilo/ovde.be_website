@@ -16,9 +16,12 @@
 <body>
 <div class="container-fluid">
 
-    @yield("content")
+    <div id="app">
+        @yield("content")
+    </div>
 
     {{--Scripts--}}
+    <script src="/js/app.js"></script>
     @yield("script")
 </div>
 </body>
