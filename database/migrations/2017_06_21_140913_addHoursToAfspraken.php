@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddPasswordToKlantenTable extends Migration
+class AddHoursToAfspraken extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,8 @@ class AddPasswordToKlantenTable extends Migration
      */
     public function up()
     {
-        Schema::table('klanten', function (Blueprint $table) {
-            $table->string("password")->default("");
-            $table->integer("reputatie")->default(0);
+        Schema::table('afspraken', function (Blueprint $table) {
+            $table->string("tijd")->default("0");
         });
     }
 
@@ -26,9 +25,8 @@ class AddPasswordToKlantenTable extends Migration
      */
     public function down()
     {
-        Schema::table('klanten', function (Blueprint $table) {
-            $table->removeColumn("password");
-            $table->removeColumn("reputatie");
+        Schema::table('afspraken', function (Blueprint $table) {
+            $table->dropColumn("tijd");
         });
     }
 }

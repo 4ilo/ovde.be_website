@@ -47,7 +47,11 @@ class KlantController extends Controller
             "adres" => "required",
         ]);
         
-        Klant::create($request->only(["naam", "adres"]));
+        Klant::create([
+            "naam" => $request->naam,
+            "adres" => $request->adres,
+            "reputatie" => isset($request->reputatie),
+        ]);
         
         return redirect("klant");
     }

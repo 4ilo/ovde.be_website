@@ -19,12 +19,18 @@
                 {{ csrf_field() }}
                 <div class="form-group">
                     <label for="datum">Datum:</label>
-                    <input type="date" class="form-control" name="datum" id="datum" value="{{ \Carbon\Carbon::now()->format("d/m/Y") }}"/>
+                    <input type="text" class="form-control" name="datum" id="datum" value="{{ \Carbon\Carbon::now()->format("d/m/Y") }}"/>
                 </div>
                 <div class="form-group">
                     <label for="opmerkingen">Opmerkingen:</label>
                     <textarea class="form-control" rows="5" name="opmerkingen" id="opmerkingen">{{ old("opmerkingen") }}</textarea>
                 </div>
+
+                <div class="form-group">
+                    <label for="tijd">Gewerkte tijd:</label>
+                    <input type="number" id="tijd" step="0.5" name="tijd" value="1" class="form-control" />
+                </div>
+
                 <button type="submit" class="btn btn-primary">Opslaan</button>
             </form>
         </div>

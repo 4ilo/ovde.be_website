@@ -28,7 +28,7 @@
                         <span class="glyphicon glyphicon-edit pull-right"></span>
                     </a>
                 </div>
-                <div class="panel-body">{{ $klant->adres }}</div>
+                <div class="panel-body">{!! $klant->getHtmlAdres() !!}</div>
             </div>
 
             <Password value="{{ $klant->password }}"></Password>
@@ -39,6 +39,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         {{ $afspraak->datum->format("d/m/Y") }}
+                        <span class="label label-warning">{{ $afspraak->tijd }}u</span>
                         <span class="pull-right">{{ $afspraak->datum->diffForHumans() }}</span>
                     </div>
                     <div class="panel-body">

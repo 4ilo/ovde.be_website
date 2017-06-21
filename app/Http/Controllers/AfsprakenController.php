@@ -31,13 +31,15 @@ class AfsprakenController extends Controller
     {
         $this->validate($request, [
             "datum" => "required|date_format:d/m/Y",
-            "opmerkingen" => "required"
+            "opmerkingen" => "required",
+            "tijd" => "required|numeric"
         ]);
         // request is valid
         
         $klant->afspraken()->create([
             "opmerkingen" => $request->opmerkingen,
             "datum" => Carbon::createFromFormat("d/m/Y", $request->datum),
+            "tijd" => $request->tijd,
         ]);
         
         return redirect("klant/" . $klant->id)->with(["flash_message" => "De afspraak is succesvol aangemaakt!"]);

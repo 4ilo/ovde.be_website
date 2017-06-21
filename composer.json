@@ -12,7 +12,8 @@
         "laravel/tinker": "^1.0",
         "guzzlehttp/guzzle": "^6.2",
         "erusev/parsedown": "^1.6",
-        "filp/whoops": "~1.0"
+        "filp/whoops": "~1.0",
+        "doctrine/dbal": "^2.5"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

@@ -62,4 +62,18 @@ class KlantenTest extends TestCase
         // We should see it edited
         $this->get("klant/" . $klant->id)->assertSee("new name");
     }
+    
+    /** @test */
+    public function a_user_can_add_a_password_to_a_klant()
+    {
+        // Given we have a klant
+        $klant = factory("App\Klant")->create();
+        
+        // And we send a setpassword request
+        $response = $this->patch("klant/". $klant->id . "/password", ["password" => "testPassword"]);
+    
+        // We should see it in the database
+        $response->assertSee("succes");
+        $this->assertEquals("testPassword", $klant->fresh()->password);
+    }
 }
