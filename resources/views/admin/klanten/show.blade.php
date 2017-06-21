@@ -3,8 +3,15 @@
 @section("header")
     <style>
         .red {
+            margin-left: 10px;
             color: red;
         }
+
+        .green {
+            margin-left: 10px;
+            color: green;
+        }
+
         .inline {
             display: inline;
         }
@@ -24,6 +31,12 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     {{ $klant->naam }}
+                    @if($klant->reputatie)
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    @else
+                        <span class="glyphicon glyphicon-remove red"></span>
+                    @endif
+
                     <a href="/klant/{{ $klant->id }}/edit">
                         <span class="glyphicon glyphicon-edit pull-right"></span>
                     </a>
@@ -46,7 +59,8 @@
                         <form action="/klant/{{ $klant->id }}/afspraak/{{ $afspraak->id }}" method="POST">
                             {{ csrf_field() }}
                             {{ method_field("DELETE") }}
-                            <button class="btn-link inline pull-right" type="submit"><span class="glyphicon glyphicon-remove red"></span></button>
+                            <button class="btn-link inline pull-right" type="submit"><span
+                                        class="glyphicon glyphicon-remove red"></span></button>
                         </form>
                         {{ $afspraak->opmerkingen }}
                     </div>

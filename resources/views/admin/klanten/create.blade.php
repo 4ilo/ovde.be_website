@@ -25,6 +25,11 @@
                     <label for="adres">Adres:</label>
                     <textarea class="form-control" rows="5" name="adres" id="adres">{{ old("adres") }}</textarea>
                 </div>
+
+                <div class="checkbox">
+                    <label><input type="checkbox" name="reputatie" value="true">Opnieuw bezoeken</label>
+                </div>
+
                 <button type="submit" class="btn btn-primary">Opslaan</button>
             </form>
         </div>
