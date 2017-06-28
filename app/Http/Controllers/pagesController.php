@@ -92,4 +92,14 @@
             }
             return FALSE;
         }
+
+        /**
+         * Route to get the server online status
+         *
+         * @return     string
+         */
+        public function status()
+        {
+            return "success";
+        }
     }
