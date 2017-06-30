@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Symfony\Component\Process\Process;
 
 class specialController extends Controller
 {
@@ -17,6 +16,10 @@ class specialController extends Controller
         return "Success";
     }
     
+    /**
+     * Github sends an event when a update is pushed
+     * @param Request $request
+     */
     public function github(Request $request)
     {
        $sig_check = 'sha1=' . hash_hmac('sha1',$request->getContent(), env("GITHUB_WEBHOOK_SECRET"));
