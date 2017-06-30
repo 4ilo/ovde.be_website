@@ -13,7 +13,7 @@ class specialController extends Controller
      */
     public function status()
     {
-        return "success";
+        return "Success";
     }
     
     public function github(Request $request)
