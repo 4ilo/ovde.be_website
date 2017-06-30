@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Symfony\Component\Process\Process;
 
 class specialController extends Controller
 {
@@ -24,9 +25,13 @@ class specialController extends Controller
            if($request->header("X-GitHub-Event") == "push")
            {
                $command = env("GITHUB_WEBHOOK_COMMAND");
-               echo $command;
-               $output = `php {$command}`;
-               echo $output;
+//               $output = `php {$command}`;
+//               echo $output;
+               
+               $process = new Process("php " . $command);
+               echo $process->run();
+               
+               echo $process->getOutput();
            }
        }
     }
