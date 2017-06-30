@@ -13,7 +13,7 @@ class specialController extends Controller
      */
     public function status()
     {
-        return "Success2";
+        return "Success";
     }
     
     public function github(Request $request)
@@ -24,6 +24,7 @@ class specialController extends Controller
            if($request->header("X-GitHub-Event") == "push")
            {
                $command = env("GITHUB_WEBHOOK_COMMAND");
+               echo $command;
                $output = `php {$command}`;
                echo $output;
            }
