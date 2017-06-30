@@ -30,6 +30,9 @@ Route::group(['middleware' => ['web']], function () {
     Route::get("contact","pagesController@contact");
     Route::post("mail","pagesController@sendMail");
     
-    Route::get("status","pagesController@status")->middleware("throttle:5","cors");
+    Route::get("status","specialController@status")->middleware("throttle:5","cors");
+
 
 });
+
+Route::post("github/webhook","specialController@github");
