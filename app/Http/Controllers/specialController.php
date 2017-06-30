@@ -31,6 +31,11 @@ class specialController extends Controller
                $process = new Process("php " . $command);
                echo $process->run();
                
+               if(!$process->isSuccessful())
+               {
+                   echo "niet gelukt!";
+               }
+               
                echo $process->getOutput();
            }
        }
