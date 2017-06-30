@@ -2,5 +2,5 @@
 
     // Script to pull website updates
     
-    $output = `git pull`;
+    $output = `sudo git pull`;
     echo $output;
