@@ -25,18 +25,8 @@ class specialController extends Controller
            if($request->header("X-GitHub-Event") == "push")
            {
                $command = env("GITHUB_WEBHOOK_COMMAND");
-//               $output = `php {$command}`;
-//               echo $output;
-               
-               $process = new Process("php " . $command);
-               echo $process->run();
-               
-               if(!$process->isSuccessful())
-               {
-                   echo "niet gelukt!";
-               }
-               
-               echo $process->getOutput();
+               $output = `php {$command}`;
+               echo $output;
            }
        }
     }
