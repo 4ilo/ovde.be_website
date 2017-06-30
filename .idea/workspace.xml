@@ -41,8 +41,8 @@
       <file leaf-file-name="specialController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/specialController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="435">
+              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -131,8 +131,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/pagesController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/update.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/specialController.php" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/specialController.php" />
       </list>
     </option>
   </component>
@@ -429,7 +429,7 @@
       <workItem from="1494688952023" duration="1136000" />
       <workItem from="1494867638012" duration="71000" />
       <workItem from="1495033503712" duration="1386000" />
-      <workItem from="1498819726191" duration="3683000" />
+      <workItem from="1498819726191" duration="3985000" />
     </task>
     <task id="LOCAL-00001" summary="update readme">
       <created>1452456996346</created>
@@ -575,7 +575,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11530000" />
+    <option name="totallyTimeSpent" value="11832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="27" width="1270" height="1053" extended-state="4" />
@@ -944,8 +944,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/specialController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="435">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding />
         </state>
       </provider>
