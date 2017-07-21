@@ -1,43 +1,43 @@
-.header {
+#contact .header {
     background-color: white;
 }
 
-.header ul li a {
+#contact .header ul li a {
     color: #575757!important;
 }
 
 
-.home {
+#contact {
     background: white none;
 }
 
-.contact img 	{
+#contact .contact img 	{
     width: 300px;
     margin-top: 20px;
 }
 
-#formulier 	{
+#contact #formulier 	{
     float: left;
     margin-left: 20px;
     margin-top: 37px;
 }
 
-#formulier span 	{
+#contact #formulier span 	{
     color: red;
 }
 
-#errorN,#errorE,#errorV 	{
+#contact #errorN,#errorE,#errorV 	{
     display: none;
     font-size: smaller;
 }
 
-#formulier p 	{
+#contact #formulier p 	{
     font-size: smaller;
     margin: 5px;
     font-family: 'Quicksand', sans-serif;
 }
 
-.knoppen 	{
+#contact .knoppen 	{
     background-color: #575757;
     padding:5px 10px 5px 10px;
     color: white;
@@ -46,7 +46,7 @@
     border: 0 solid black;
 }
 
-#vraag 	{
+#contact #vraag 	{
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
     font-size: 12px;
@@ -54,7 +54,7 @@
     resize: none;
 }
 
-.knoppen:hover 	{
+#contact .knoppen:hover 	{
     background-color: white;
     color: #575757;
 }

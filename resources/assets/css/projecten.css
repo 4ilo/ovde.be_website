@@ -1,36 +1,36 @@
-.header {
+#projecten .header {
     background-color: white;
 }
 
-.header ul li a {
+#projecten .header ul li a {
     color: #575757!important;
 }
 
-.home {
+#projecten {
     background: #232323 none;
 }
 
-.top {
+#projecten .top {
     margin-top: 30px;
 }
 
-h1 {
+#projecten h1 {
     color: white;
 }
 
-p {
+#projecten p {
     color: white;
 }
 
-ul {
+#projecten ul {
     color: white;
     list-style-type: none;
 }
 
-.inhoud img {
+#projecten .inhoud img {
     margin-top: 20px;
 }
 
-.inhoud .row {
+#projecten .inhoud .row {
     margin-bottom: 30px;
 }

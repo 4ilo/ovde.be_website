@@ -3,7 +3,11 @@
 @section("titel","Ovde - Over")
 
 @section("header")
-    <link rel="stylesheet" href="css/over.css">
+    {{-- <link rel="stylesheet" href="css/over.css"> --}}
+@stop
+
+@section("bodyAttr")
+    id="over"
 @stop
 
 @section("content")

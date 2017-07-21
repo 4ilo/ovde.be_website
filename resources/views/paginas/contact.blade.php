@@ -3,8 +3,11 @@
 @section("titel","Ovde - Contact")
 
 @section("header")
-    <link rel="stylesheet" href="/css/contact.css">
     <script src='https://www.google.com/recaptcha/api.js'></script>
+@stop
+
+@section("bodyAttr")
+    id="contact"
 @stop
 
 @section("content")

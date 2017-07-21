@@ -1,11 +1,11 @@
-h1 {
+#over h1 {
     color:#007eff;
     font-family: 'Quicksand', sans-serif ;
     font-weight: 400;
     font-size: 25px;
     margin-top: 20px;
 }
-h2 {
+#over h2 {
     color:#007eff;
     font-family: 'Quicksand', sans-serif ;
     font-weight: 400;
@@ -13,41 +13,41 @@ h2 {
     margin-top: 50px;
 }
 
-h4 {
+#over h4 {
     color: white;
 }
 
-p {
+#over p {
     color: white;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
 }
 
-h3 {
+#over h3 {
     color:#007eff;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     font-size: 30px;
 }
 
-.header {
+#over .header {
     background-color: white;
 }
 
-.header ul li a {
+#over .header ul li a {
     color: #575757!important;
 }
 
-.home {
-    background: #232323 none;
+#over {
+    background: #232323 none;   
 }
 
-.logo-small {
+#over .logo-small {
     color: #007eff;
     font-size: 50px;
 }
 
-.onder {
+#over .onder {
     margin-bottom: 40px;
 }
 
@@ -55,6 +55,10 @@ h3 {
 /* Style voor status pagina */
 .deel {
    color: white;
+}
+
+.white {
+    color: white;
 }
 
 .deel .progress {

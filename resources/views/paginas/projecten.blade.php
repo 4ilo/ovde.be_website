@@ -3,12 +3,12 @@
 @section("titel","Ovde - Projecten")
 
 @section("header")
-    <link rel="stylesheet" href="css/projecten.css">
-    <script type="text/javascript" src="js/projecten.js"></script>
+    
 @stop
 
 @section("bodyAttr")
     data-spy="scroll" data-target="#myScrollspy" data-offset="125"
+    id="projecten"
 @stop
 
 @section("content")
