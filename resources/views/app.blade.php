@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ mix("/css/app.css") }}">
 
-    <script type="text/javascript" src="{{ mix("js/projecten.js") }}"></script>
-    <script src="{{ mix("/js/app.js") }}"></script>
+    <script async type="text/javascript" src="{{ mix("js/projecten.js") }}"></script>
+    <script async src="{{ mix("/js/app.js") }}"></script>
 
     @yield("header")
 
