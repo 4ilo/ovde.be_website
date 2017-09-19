@@ -10,9 +10,9 @@
 
 // window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
-import Turbolinks from "turbolinks";
+// import Turbolinks from "turbolinks";
 
-Turbolinks.start()
+// Turbolinks.start()
 
 /**
  * Next we will register the CSRF Token as a common header with Axios so that

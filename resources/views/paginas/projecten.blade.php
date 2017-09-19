@@ -7,7 +7,7 @@
 @stop
 
 @section("bodyAttr")
-    data-spy="scroll" data-target="#myScrollspy" data-offset="125"
+    {{--data-spy="scroll" data-target="#myScrollspy" data-offset="125"--}}
     id="projecten"
 @stop
 
@@ -31,6 +31,8 @@
                 <li class="link"><a href="#websites">Websites</a></li>
                 <li class="link"><a href="#serialwrite">Serial Write</a></li>
                 <li class="link"><a href="#jukebox">Wireless-Jukebox</a></li>
+                <li class="link"><a href="#bachelorproef">Bachelorproef</a></li>
+                <li class="link"><a href="#komfortkost">KomfortKost</a></li>
                 <li>
                     <a target="_blank" href="https://www.vultr.com/?ref=7159849">
                         <img src="https://www.vultr.com/media/banner_3.png" width="200">
@@ -190,7 +192,7 @@
                             Voor het afspelen van muziek wordt er gebruik gemaakt van een PWM output die verbonden is aan een jack-connector.
                         </p>
                         <ul>
-                            <li>- StandAlone</li>
+                            <li>- Stand Alone</li>
                             <li>- Sd-kaart</li>
                             <li>- Esp8266 webserver</li>
                             <li>- Stm32F4 microcontroller</li>
@@ -204,8 +206,81 @@
                     </div>
                 </div>
             </div>
-        </div>
 
+            <div id="bachelorproef">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1>Iot in gebouwenautomatisatie</h1>
+                        <p>
+                            In dit werkstuk gaan we onderzoeken wat de mogelijkheden zijn van “Internet Of
+                            things” in de gebouwenautomatisatie.
+                        </p>
+                        <p>
+                            De integratie van IoT in combinatie met domotica kan heel wat voordelen bieden, denk
+                            maar aan het sturen van elektrische apparaten afhankelijk van over/onder productie
+                            van elektriciteit. Of het automatisch bedienen van uw huis via een gsm of zelfs via
+                            voice control of Siri. Het zou zelfs mogelijk moeten zijn om te detecteren of mensen
+                            thuis zijn, en op basis van deze informatie het huis anders te bedienen.
+                        </p>
+                        <p>
+                            Voor dit onderzoek zal er ook een praktische realisatie gemaakt worden die meerdere
+                            van dit soort toepassingen mogelijk moet maken op hetzelfde platform. Het hele
+                            platform zal gebaseerd zijn op een embedded Linux systeem dat communiceert met de
+                            KNX domotica bus.
+                        </p>
+                        <ul>
+                            <li>- Stand Alone</li>
+                            <li>- Open source</li>
+                            <li>- KNX uitbreidbaar via plugins</li>
+                            <li>- Communicatie via UDP-sockets</li>
+                            <li>- Verschillende programeertalen mogelijk</li>
+                        </ul>
+                        <br/>
+                        <a href="https://github.com/4ilo/Bachelorproef_E-ICT" target="_blank" class="grijs">Github repo</a><br/>
+                        <a href="https://github.com/4ilo/Bachelorproef_E-ICT/raw/master/Administratie/Scriptie/scriptie_Olivier_VandenEede_eict.pdf" target="_blank" class="grijs">Uitgebreide documentatie</a><br/>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="{{ asset("/images/bachelorproef.jpg") }}" class="img-responsive" alt="Bachelorproef">
+                    </div>
+                </div>
+            </div>
+
+            <div id="komfortkost">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1>KomfortKost webshop</h1>
+                        <p>
+                            In de zomer van 2017 heb ik mijn grootste webproject tot dan toe gemaakt.
+                            Een volledig op maat gemaakte webshop die effectief in productie gebruikt wordt.
+                        </p>
+                        <p>
+                            KomfortKost is een lokaal bedrijf dat huiselijk eten maakt tegen een betaalbare prijs.
+                            Elke week kunnen klanten dag per dag eten bestellen en betalen via de webshop,
+                            op het juiste tijdstip moeten ze dan hun versgemaakte bestelling afhalen.
+                        </p>
+                        <ul>
+                            <li>- Nieuw design</li>
+                            <li>- Volledig configureerbaar door de klant</li>
+                            <li>- Gemaakt in in Laravel-PHP</li>
+                            <li>- Betalingen via stripe</li>
+                            <li>- Custom server opgezet bij Vultr</li>
+                            <li>- Cloudflare DNS</li>
+                        </ul>
+                        <br/>
+                        <a href="https://komfortkost.be" target="_blank" class="grijs">KomfortKost website</a><br/>
+                        <a href="/contact" class="grijs">Source code op aanvraag</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="{{ asset("/images/komfortkost.png") }}" class="img-responsive" alt="Bachelorproef">
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
+@stop
+
+@section("script")
+    <script src="{{ mix("js/projecten.js") }}"></script>
 @stop

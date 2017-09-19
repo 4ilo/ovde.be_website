@@ -13,7 +13,7 @@ let mix = require('laravel-mix');
 
 mix.styles(["resources/assets/css/style.css", "resources/assets/css/contact.css", 
 			"resources/assets/css/over.css", "resources/assets/css/projecten.css", "public/css/home.css"], "public/css/app.css")
-   .version()
+   .version();
 
 mix.scripts(["resources/assets/js/jquery.js","resources/assets/js/tw_bootstrap.min.js","resources/assets/js/scrollspy.js"],"public/js/projecten.js")
    .js('resources/assets/js/app.js', 'public/js/app.js')

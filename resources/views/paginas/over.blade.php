@@ -24,8 +24,8 @@
         <div class="col-sm-8">
             <h1>Over Olivier</h1>
             <p>
-                Ik ben Olivier Van den Eede, student Electronica-ICT met optie embedded-ict
-                aan ThomasMore Mechelen, op Campus De Nayer.<br>
+                Ik ben Olivier Van den Eede, student in het schakelprogramma industriele wetenschappen Electronica-ICT
+                aan de KU Leuven op Campus de Nayer. Ik heb reeds een hogeschool diploma Embedded-ICT behaald bij Thomas More op Campus De Nayer.<br>
                 Voor mijn studie moet ik in deze praktische richting een groot aantal projecten maken voor
                 verschillende vakken. Deze website dient als een klein portfolio om al deze en mijn prive projecten te
                 bundenlen en bespreken.
