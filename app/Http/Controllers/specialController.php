@@ -7,16 +7,6 @@ use Illuminate\Http\Request;
 class specialController extends Controller
 {
     /**
-     * Route to get the server online status
-     *
-     * @return     string
-     */
-    public function status()
-    {
-        return "Success";
-    }
-    
-    /**
      * Github sends an event when a update is pushed
      * @param Request $request
      */

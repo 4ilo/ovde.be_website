@@ -163,6 +163,7 @@ return [
         Laravel\Tinker\TinkerServiceProvider::class,
 
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Ovde\Status\StatusServiceProvider::class,
 
         /*
          * Application Service Providers...
