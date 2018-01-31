@@ -14,9 +14,9 @@
     "cross-env": "^3.2.3",
     "laravel-mix": "0.*",
     "lodash": "^4.17.4",
-    "vue": "^2.1.10"
+    "vue": "^2.5.13"
   },
   "dependencies": {
-    "turbolinks": "^5.0.3"
+    "turbolinks": "^5.1.1"
   }
 }
