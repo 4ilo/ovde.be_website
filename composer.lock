@@ -1094,7 +1094,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/4ilo/laravel-status.git",
-                "reference": "fab7289707dc2e1422ac3d41db30df102d190d54"
+                "reference": "67a5b4334d4d6d25e03fe3ab9263298ace771751"
             },
             "require": {
                 "illuminate/support": "5.4.*|5.5.*"
@@ -1119,7 +1119,7 @@
                 }
             ],
             "description": "Website status url usable for status on dashboard.",
-            "time": "2018-02-16T15:14:13+00:00"
+            "time": "2018-02-17T18:25:13+00:00"
         },
         {
             "name": "paragonie/random_compat",
