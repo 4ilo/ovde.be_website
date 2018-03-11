@@ -33,11 +33,6 @@
                 <li class="link"><a href="#jukebox">Wireless-Jukebox</a></li>
                 <li class="link"><a href="#bachelorproef">Bachelorproef</a></li>
                 <li class="link"><a href="#komfortkost">KomfortKost</a></li>
-                <li>
-                    <a target="_blank" href="https://www.vultr.com/?ref=7159849">
-                        <img src="https://www.vultr.com/media/banner_3.png" width="200">
-                    </a>
-                </li>
             </ul>
         </nav>
         <div class="col-sm-10 inhoud">         <!-- vanaf hier komen de pagina's -->
