@@ -1,12 +1,12 @@
 <?php
-    
+
     namespace App\Http\Controllers;
-    
+
     use ReCaptcha\ReCaptcha;
     use App\Mail\ContactFormMail;
     use Illuminate\Support\Facades\Mail;
     use App\Http\Requests\contactRequest;
-    
+
     class pagesController extends Controller
     {
         /**
@@ -17,7 +17,7 @@
         {
             return view("paginas.home");
         }
-        
+
         /**
          * Over olivier pagina
          * @return \Illuminate\View\View
@@ -26,8 +26,8 @@
         {
             return view("paginas.over");
         }
-        
-        /**
+
+       /**
          * Projecten pagina
          * @return \Illuminate\View\View
          */
@@ -35,7 +35,7 @@
         {
             return view("paginas.projecten");
         }
-        
+
         /**
          * De contact pagina
          * @return \Illuminate\View\View
@@ -44,7 +44,7 @@
         {
             return view("paginas.contact");
         }
-        
+
         /**
          *  Deze method stuurt de mail van het contactformulier
          * @param contactRequest $request
@@ -54,16 +54,16 @@
         {
             if (!$this->checkCaptcha($request))
             {
-                session()->flash("flash_message", "reCAPTCHA is niet ingevuld");
+                session()->flash("flash_message", "reCAPTCHA not completed.");
                 return redirect()->back();
             }
-            
+
             // Hier is de captcha gevalideerd
-            
+
             Mail::to("oliviervandeneede@hotmail.com")->send(new ContactFormMail($request));
-            
-            
-            session()->flash("flash_message", "Email is verzonden.");
+
+
+            session()->flash("flash_message", "Your message has been send");
             return redirect("contact");
         }
         

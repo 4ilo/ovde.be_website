@@ -32,32 +32,32 @@
                     @if(session()->has("flash_message"))
                         <span>{{ session("flash_message") }}</span>
                     @else
-                    Velden met een <span>*</span> zijn verplicht.
+                    Required fields <span>*</span>.
                     @endif
                     </p><br/>
                 <form action="{{ url("mail") }}" method="post">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <p>
-                        Naam:<span>*</span> <br/>
-                        <input type="text" required name="naam" id="naam" onchange="check()" placeholder="Naam" />
-                        &nbsp;<span id="errorN">Geef uw naam op.</span>
+                        Name:<span>*</span> <br/>
+                        <input type="text" required name="naam" id="naam" onchange="check()" placeholder="Name" />
+                        &nbsp;<span id="errorN">Your name is required.</span>
                     </p>
 
                     <p>
                         Email:<span>*</span> <br/>
                         <input type="text" required name="email" id="email" onchange="check()" placeholder="Email" />
-                        &nbsp;<span id="errorE">Geef uw Email juist in.</span>
+                        &nbsp;<span id="errorE">Your Email is required.</span>
                     </p>
 
                     <p>
-                        Vraag:<span>*</span>&nbsp;<span id="errorV">Geef een vraag op.</span> <br/>
+                        Vraag:<span>*</span>&nbsp;<span id="errorV">Your question.</span> <br/>
                         <textarea rows="5" required cols="40" name ="vraag" id="vraag" onchange="check()"></textarea>
 
                     </p>
 
                     <div class="g-recaptcha" data-sitekey="{{ env("RE_CAP_SITE") }}"></div>
 
-                    <input id="knop" class="knoppen" name="verzenden" type="submit" value="Verzenden" />
+                    <input id="knop" class="knoppen" name="verzenden" type="submit" value="Send" />
                 </form>
             </div>
         </div>
